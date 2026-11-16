@@ -1,0 +1,77 @@
+body {
+    font-family: Zues Borne, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+}
+
+/* This gives the header your requested gradient */
+header {
+    background: linear-gradient(to bottom, yellow, orange, blue);
+    padding: 10px;
+    opacity: linear-gradient(to bottom, 15px, transparent); 
+}
+
+footer {
+    background: linear-gradient(to top, yellow, orange, blue);
+    padding: 100px;
+    opacity: linear-gradient(to bottom, 15px, transparent); 
+}
+
+
+img {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 35%; 
+    height: auto; 
+}
+
+a{
+    color: white;  
+    text-decoration: none; 
+}
+
+a.second{
+    color: blue; 
+    text-decoration: none; 
+}
+
+a:hover{
+    color: orange; 
+}
+
+/* Colorful and formatted navigation bar */
+nav {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+    color: #fafbfc;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+/* Styling for the section titles */
+h2 {
+    color: #ff6b6b;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #7d5eec;
+    text-align: center;
+    margin-top: 30px;
+}
